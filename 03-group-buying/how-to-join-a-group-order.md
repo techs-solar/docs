@@ -1,7 +1,17 @@
+---
+title: 'How to join a group order'
+tags:
+  - gpo
+  - group-buying
+  - quote
+  - soft-reserve
+  - escrow
+---
+
 There are two ways to join a group order, and both are permanent, valid paths:
 
 - **In the middle of authoring a customer quote** — Quote Generator v2 surfaces every active GPO offer for your country at the top of Tab 1, so you can pick one and apply it to that specific quote in one click. Covered on this page.
-- **Directly through the GPO portal (`/gpo`)** — for when you already know GPO and want to browse open orders and commit on their own terms, independent of any specific customer. Covered in joining-via-gpo-portal.
+- **Directly through the GPO portal (`/gpo`)** — for when you already know GPO and want to browse open orders and commit on their own terms, independent of any specific customer. Covered in [Joining a group order via the GPO portal](/03-group-buying/joining-via-gpo-portal/).
 
 This page walks through the first path — joining via Quote Generator v2.
 
@@ -27,7 +37,7 @@ You can use either surface. The shelf is the primary discovery mechanism (all of
 
 ## What happens after the customer accepts
 
-When you mark the quote as Accepted in your quotes list, techs.solar locks your slot at the GPO price. You'll receive delivery details once the group order reaches minimum commitment.
+When you mark the quote as Accepted in your quotes list, techs.solar locks your slot at the GPO price. To turn that into a firm place in the order you sign the Member Agreement (a short electronic-signature ceremony) and fund your goods amount into the escrow program — 100% upfront, held safely and released to the vendor only against signed proof of progress. See gpo-and-smart-contracts for where the money sits, and gpo-member-agreement-overview for what you're signing. You'll receive delivery details as the group order progresses.
 
 ## Can I join multiple group orders?
 

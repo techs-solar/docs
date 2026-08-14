@@ -1,0 +1,7 @@
+# Techs.Solar Docs
+
+> Public installer-facing documentation for Techs.Solar — group buying, quoting, monitoring, and more.
+
+## Group Buying
+- [How to join a group order](https://docs.techs.solar/03-group-buying/how-to-join-a-group-order/)
+- [Joining a group order via the GPO portal](https://docs.techs.solar/03-group-buying/joining-via-gpo-portal/)

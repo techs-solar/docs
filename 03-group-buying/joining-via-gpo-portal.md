@@ -1,6 +1,17 @@
+---
+title: 'Joining a group order via the GPO portal'
+tags:
+  - gpo
+  - group-buying
+  - portal
+  - otp
+  - acceptance-flow
+  - escrow
+---
+
 The GPO portal (`/gpo`) is the direct way to join a group order — for when you already know GPO and want to browse open orders and commit on your own terms, independent of any specific customer quote.
 
-This is a different path from the Quote Generator v2 shelf (see how-to-join-a-group-order), which surfaces GPO offers in the middle of authoring a customer quote. Both are permanent, valid ways to join — use whichever fits how you're working. The portal is a heavier, standalone commitment: signed agreements, not a quote line item.
+This is a different path from the Quote Generator v2 shelf (see [How to join a group order](/03-group-buying/how-to-join-a-group-order/)), which surfaces GPO offers in the middle of authoring a customer quote. Both are permanent, valid ways to join — use whichever fits how you're working. The portal is a heavier, standalone commitment: signed agreements, not a quote line item.
 
 ## Step 0 — Enrol in the GPO Programme (one-time)
 
@@ -21,10 +32,11 @@ If you skip this and try to express interest directly, you'll be redirected back
 5. Submit your commitment quantities (how many units you want)
 6. On your first commitment, you're taken into a short 4-step agreement flow:
    - Review the Member Agreement document
-   - Review key terms (commitment, payment, withdrawal, liability, governing law, data & privacy, electronic signature)
-   - Acknowledge any per-clause items specific to your country
+   - Review key terms as plain-language cards (binding commitment, funding 100% of goods into escrow, where your money sits, the four payments, automatic refunds, what isn't protected, cost of default, Greek law)
+   - Acknowledge the escrow-settlement clauses individually (your money becomes regulated e-money, automated milestone release, your personal data stays off the public ledger, roster fixed at deployment, Greek law regardless of the technology) plus any per-country items
    - Sign — enter your name and role, then verify with a 6-digit code sent to your email. For some countries and higher-value orders, a second 6-digit code is also sent by SMS and must be verified before signing completes.
 7. Once verified, your commitment is confirmed and locked. A signed copy of the Member Agreement is emailed to you automatically.
+8. You then fund **100% of the goods value** into the escrow program by SEPA transfer (exact to the cent). See gpo-and-smart-contracts for where that money sits and how it's released.
 
 If you want to change your quantities later, you can re-commit without going through the agreement flow again — you already signed it.
 
@@ -39,6 +51,6 @@ Once you've expressed interest, your spot isn't guaranteed until you complete th
 ## Which way should I join — portal or Quote v2?
 
 - **Already know you want in on a specific group order, no particular customer yet?** Use the portal directly.
-- **Mid-quote, and a matching GPO offer happens to be live for what you're quoting?** Use the Quote v2 shelf (see how-to-join-a-group-order) — it applies the GPO price to that quote without a trip to the portal.
+- **Mid-quote, and a matching GPO offer happens to be live for what you're quoting?** Use the Quote v2 shelf (see [How to join a group order](/03-group-buying/how-to-join-a-group-order/)) — it applies the GPO price to that quote without a trip to the portal.
 
 They're separate systems under the hood — a portal membership and a Quote v2 earmark don't currently share the same record — but from your side, both get you into the same group order.

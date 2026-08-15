@@ -2,10 +2,52 @@
 
 > Public installer-facing documentation for Techs.Solar — group buying, quoting, monitoring, and more.
 
+## Getting Started
+- [First day on techs.solar — a short checklist](https://docs.techs.solar/01-getting-started/first-day-checklist/)
+
+## Creating Quotes
+- [Quote Generator v1 vs v2 — which should I use?](https://docs.techs.solar/02-creating-quotes/difference-between-v1-and-v2/)
+
 ## Group Buying
+- [GPO and smart-contract escrow — where your money sits and how it moves](https://docs.techs.solar/03-group-buying/gpo-and-smart-contracts/)
 - [How to join a group order](https://docs.techs.solar/03-group-buying/how-to-join-a-group-order/)
 - [Joining a group order via the GPO portal](https://docs.techs.solar/03-group-buying/joining-via-gpo-portal/)
+- [Substitution and reallocation — the two remedies around a defaulted slot](https://docs.techs.solar/03-group-buying/substitution-and-reallocation/)
+- [What happens if a GPO member defaults — the cascade in plain terms](https://docs.techs.solar/03-group-buying/what-happens-if-a-gpo-defaults/)
 
 ## Pricing and Plans
+- [Changing your plan — upgrading, downgrading, cancelling](https://docs.techs.solar/04-pricing-and-plans/changing-your-plan/)
 - [Founding Member vs Standard plan — what's the difference?](https://docs.techs.solar/04-pricing-and-plans/founding-member-vs-standard/)
+- [Refunds policy — the 14-day money-back window and what happens after](https://docs.techs.solar/04-pricing-and-plans/refunds-policy/)
 - [What is included in the €149 Founding Member plan?](https://docs.techs.solar/04-pricing-and-plans/what-is-included-in-the-149-plan/)
+
+## Monitoring
+- [Adding a Shelly relay or smart plug to a plant](https://docs.techs.solar/05-monitoring/adding-smart-devices-shelly/)
+- [Rehearsal and arming — how an automation goes live safely](https://docs.techs.solar/05-monitoring/automation-rehearsal-and-arming/)
+- [Battery card colors explained — charging, discharging, and critical](https://docs.techs.solar/05-monitoring/battery-card-colors-explained/)
+- [Importing and exporting STX — Solar Topology eXchange files](https://docs.techs.solar/05-monitoring/importing-and-exporting-stx/)
+- [Plant Automations — alerts, actions, and the surplus plan](https://docs.techs.solar/05-monitoring/plant-automations-overview/)
+- [The plant Overview tab — live readings, Time Machine, and recent alerts](https://docs.techs.solar/05-monitoring/plant-overview-tab/)
+- [Scan schematic from image — turn a wiring diagram into a canvas draft](https://docs.techs.solar/05-monitoring/scan-schematic-from-image/)
+- [Setting up a monitoring inverter — connecting a plant to techs.solar](https://docs.techs.solar/05-monitoring/setting-up-a-monitoring-inverter/)
+- [Using the Layout Designer — the plant's System Topology view](https://docs.techs.solar/05-monitoring/using-the-layout-designer/)
+- [Who sees monitoring alerts — you, your customer, or both](https://docs.techs.solar/05-monitoring/who-sees-monitoring-alerts/)
+
+## Customers and Leads
+- [Handling a lost lead — closing the loop cleanly](https://docs.techs.solar/06-customers-and-leads/handling-a-lost-lead/)
+- [Understanding your lead pipeline — the six stages a lead moves through](https://docs.techs.solar/06-customers-and-leads/understanding-your-lead-pipeline/)
+
+## Contracts and Legal
+- [Quote legal basics — what a quote is, when it binds you](https://docs.techs.solar/07-contracts-and-legal/quote-legal-basics/)
+
+## Troubleshooting
+- [Login issues — the common ones and how to get back in](https://docs.techs.solar/08-troubleshooting/login-issues/)
+- [PDF generation fails — what to try when a quote won't export](https://docs.techs.solar/08-troubleshooting/pdf-generation-fails/)
+
+## Pre-Sales Tools
+- [Bill Savings Simulator — annualised savings with a live tariff feed](https://docs.techs.solar/10-pre-sales-tools/bill-savings/)
+- [Cost Estimator — a ballpark install price by tier](https://docs.techs.solar/10-pre-sales-tools/cost-estimator/)
+- [Panel Layout Designer — laying out panels per roof section](https://docs.techs.solar/10-pre-sales-tools/panel-layout/)
+- [Pre-Sales Tools — the six calculators that live before the quote](https://docs.techs.solar/10-pre-sales-tools/pre-sales-tools-overview/)
+- [ROI Calculator — a payback estimate you can quote in the first call](https://docs.techs.solar/10-pre-sales-tools/roi-calculator/)
+- [Solar Potential — analyse a rooftop from just an address](https://docs.techs.solar/10-pre-sales-tools/solar-potential/)

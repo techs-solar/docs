@@ -24,6 +24,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Techs.Solar Docs',
+			defaultLocale: 'root',
+			locales: {
+				root: { label: 'English', lang: 'en' },
+				el: { label: 'Ελληνικά', lang: 'el' },
+			},
 			// `light`/`dark` are the THEME, so each takes the wordmark whose
 			// ink contrasts with that theme's background: dark text on light,
 			// light text on dark. Swapping them renders the logo invisible.
@@ -37,8 +42,8 @@ export default defineConfig({
 			sidebar: [
 				{ label: 'Getting Started', items: [{ autogenerate: { directory: '01-getting-started' } }] },
 				{ label: 'Creating Quotes', items: [{ autogenerate: { directory: '02-creating-quotes' } }] },
-				{ label: 'Group Buying', items: [{ autogenerate: { directory: '03-group-buying' } }] },
-				{ label: 'Pricing and Plans', items: [{ autogenerate: { directory: '04-pricing-and-plans' } }] },
+				{ label: 'Group Buying', translations: { el: 'Ομαδικές αγορές' }, items: [{ autogenerate: { directory: '03-group-buying' } }] },
+				{ label: 'Pricing and Plans', translations: { el: 'Τιμές και πακέτα' }, items: [{ autogenerate: { directory: '04-pricing-and-plans' } }] },
 				{ label: 'Monitoring', items: [{ autogenerate: { directory: '05-monitoring' } }] },
 				{ label: 'Customers and Leads', items: [{ autogenerate: { directory: '06-customers-and-leads' } }] },
 				{ label: 'Contracts and Legal', items: [{ autogenerate: { directory: '07-contracts-and-legal' } }] },

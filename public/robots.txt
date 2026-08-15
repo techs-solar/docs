@@ -1,17 +1,26 @@
 User-agent: *
 Allow: /
 
+# Greek pages are still mostly untranslated fallbacks (English served at /el/ URLs).
+# Remove this Disallow once Greek coverage is substantially complete.
+Disallow: /el/
+
 User-agent: GPTBot
 Allow: /
+Disallow: /el/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /el/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /el/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /el/
 
 User-agent: CCBot
 Allow: /
+Disallow: /el/

@@ -36,7 +36,7 @@ If you skip this and try to express interest directly, you'll be redirected back
    - Acknowledge the escrow-settlement clauses individually (your money becomes regulated e-money, automated milestone release, your personal data stays off the public ledger, roster fixed at deployment, Greek law regardless of the technology) plus any per-country items
    - Sign — enter your name and role, then verify with a 6-digit code sent to your email. For some countries and higher-value orders, a second 6-digit code is also sent by SMS and must be verified before signing completes.
 7. Once verified, your commitment is confirmed and locked. A signed copy of the Member Agreement is emailed to you automatically.
-8. You then fund **100% of the goods value** into the escrow program by SEPA transfer (exact to the cent). See gpo-and-smart-contracts for where that money sits and how it's released.
+8. You then fund **100% of the goods value** into the escrow program by SEPA transfer (exact to the cent). See [GPO and smart-contract escrow — where your money sits and how it moves](/03-group-buying/gpo-and-smart-contracts/) for where that money sits and how it's released.
 
 If you want to change your quantities later, you can re-commit without going through the agreement flow again — you already signed it.
 

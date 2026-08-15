@@ -5,3 +5,7 @@
 ## Group Buying
 - [How to join a group order](https://docs.techs.solar/03-group-buying/how-to-join-a-group-order/)
 - [Joining a group order via the GPO portal](https://docs.techs.solar/03-group-buying/joining-via-gpo-portal/)
+
+## Pricing and Plans
+- [Founding Member vs Standard plan — what's the difference?](https://docs.techs.solar/04-pricing-and-plans/founding-member-vs-standard/)
+- [What is included in the €149 Founding Member plan?](https://docs.techs.solar/04-pricing-and-plans/what-is-included-in-the-149-plan/)

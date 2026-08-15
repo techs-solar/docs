@@ -1,0 +1,15 @@
+/* GENERATED FILE — owned by KbSyncExternal, rewritten on every sync.
+   Hand-edits here are lost. The accent is derived from
+   `--color-primary` in resources/css/app.css; change it there. */
+
+:root {
+	--sl-color-accent-low: hsl(142, 71%, 18%);
+	--sl-color-accent: hsl(142, 71%, 42%);
+	--sl-color-accent-high: hsl(142, 71%, 78%);
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: hsl(142, 71%, 88%);
+	--sl-color-accent: hsl(142, 71%, 30%);
+	--sl-color-accent-high: hsl(142, 71%, 18%);
+}

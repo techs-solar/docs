@@ -1,0 +1,79 @@
+name: Deploy docs to GitHub Pages
+
+# SCAFFOLD FILE — not written by the sync. Safe to hand-edit.
+#
+# Builds the Starlight site and publishes dist/ to GitHub Pages.
+# Requires Settings -> Pages -> Source = "GitHub Actions" (not "Deploy from a
+# branch"). Flipping that setting back to the branch source is the rollback.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race; let a newer commit supersede an in-flight one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install (clean, lockfile-exact)
+        run: npm ci
+
+      - name: Build
+        run: npx astro build
+
+      # Fails the deploy rather than publishing a broken site. Two things are
+      # asserted because both have silent failure modes:
+      #  - the URL shape (#568 constraint 1): a flattened build still deploys
+      #    fine and quietly 404s every indexed URL and every llms.txt link.
+      #  - CNAME: Pages serves dist/, not the repo, so a missing CNAME drops
+      #    the custom domain and presents as a DNS fault.
+      - name: Assert URL shape, CNAME and AI-reach files survived into dist/
+        run: |
+          set -e
+          fail=0
+          for p in \
+            "dist/index.html" \
+            "dist/03-group-buying/index.html" \
+            "dist/03-group-buying/how-to-join-a-group-order/index.html" \
+            "dist/CNAME" \
+            "dist/llms.txt" \
+            "dist/robots.txt" \
+            "dist/pagefind/pagefind.js" ; do
+            if [ -e "$p" ]; then echo "OK   $p"; else echo "MISS $p"; fail=1; fi
+          done
+          [ "$(cat dist/CNAME)" = "docs.techs.solar" ] || { echo "CNAME value wrong"; fail=1; }
+          exit $fail
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

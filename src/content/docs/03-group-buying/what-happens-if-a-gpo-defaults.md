@@ -11,7 +11,7 @@ tags:
 
 This page describes what happens inside a Group Purchasing Order when a committed member doesn't pay what they owe. It's about the mechanics the platform runs, not the binding legal consequences — those are in the gpo-member-agreement-overview you signed at the portal. Read that alongside this page if you're actively dealing with a default situation.
 
-First, the good news if you *have* funded: money you've already paid into the escrow is protected by code — it can only be released to the vendor against signed milestone evidence, or refunded to you (see [GPO and smart-contract escrow — where your money sits and how it moves](/03-group-buying/gpo-and-smart-contracts/)). "Default" is about a member who owes and hasn't paid: most often failing to fund your escrow amount after you signed, or later missing a fee (P2) or landed-cost (P3) invoice.
+First, the good news if you *have* funded: money you've already paid into your own escrow contract is protected by code — it can only be paid out to the vendor's bank account against signed milestone evidence, or returned to your wallet (see [GPO and smart-contract escrow — where your money sits and how it moves](/03-group-buying/gpo-and-smart-contracts/)). "Default" is about a member who owes and hasn't paid: most often failing to fund your escrow amount after you signed, or later missing a fee (P2) or landed-cost (P3) invoice.
 
 ## What counts as a default
 

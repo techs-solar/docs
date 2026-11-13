@@ -22,7 +22,7 @@ Each question has its own tool, usable in under a minute with whatever the custo
 | Will my roof work? | solar-potential | Address (any format worldwide) | Usable area, annual generation, monthly shape, suggested kWp |
 | How long to pay back? | roi-calculator | Monthly bill + roof orientation + postcode | Payback years, annual savings, 20-year total, recommended kWp |
 | What'll the bill look like? | bill-savings | Monthly bill + kWp + live tariff + export credit | Savings/month, savings/year, kWh generated, self-sufficiency % |
-| How much does the install cost? | cost-estimator | kWp + component tier | Line-item cost table by category, total incl. Greek 6% VAT |
+| How much does the install cost? | cost-estimator | kWp + component tier | Line-item cost table by category, total incl. Greek 24% VAT |
 | How do panels fit on the roof? | panel-layout | Panel size + rows per section | Panel count, kWp, m² covered, generation estimate |
 | What incentives apply? | subsidy-checker | (nothing — country-scoped, currently Greek only) | Current programme catalogue with status, amounts, eligibility |
 

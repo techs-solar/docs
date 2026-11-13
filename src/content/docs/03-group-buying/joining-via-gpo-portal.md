@@ -9,6 +9,8 @@ tags:
   - escrow
 ---
 
+> **Group buying will open after techs.solar launches. We'll announce the date.** Until then, joining or committing to an order is not possible. You can enrol in the GPO Programme from your dashboard now and we will email you when the first order opens.
+
 The GPO portal (`/gpo`) is the direct way to join a group order — for when you already know GPO and want to browse open orders and commit on your own terms, independent of any specific customer quote.
 
 This is a different path from the Quote Generator v2 shelf (see [How to join a group order](/03-group-buying/how-to-join-a-group-order/)), which surfaces GPO offers in the middle of authoring a customer quote. Both are permanent, valid ways to join — use whichever fits how you're working. The portal is a heavier, standalone commitment: signed agreements, not a quote line item.
@@ -34,6 +36,7 @@ If you skip this and try to express interest directly, you'll be redirected back
    - Review the Member Agreement document
    - Review key terms as plain-language cards (binding commitment, funding 100% of goods into escrow, where your money sits, the four payments, automatic refunds, what isn't protected, cost of default, Greek law)
    - Acknowledge the escrow-settlement clauses individually (your money becomes regulated e-money, automated milestone release, your personal data stays off the public ledger, roster fixed at deployment, Greek law regardless of the technology) plus any per-country items
+   - Connect your Monerium account and choose the address your refunds return to — required before the signature will complete, and only on your first commitment
    - Sign — enter your name and role, then verify with a 6-digit code sent to your email. For some countries and higher-value orders, a second 6-digit code is also sent by SMS and must be verified before signing completes.
 7. Once verified, your commitment is confirmed and locked. A signed copy of the Member Agreement is emailed to you automatically.
 8. You then fund **100% of the goods value** into the escrow program by SEPA transfer (exact to the cent). See [GPO and smart-contract escrow — where your money sits and how it moves](/03-group-buying/gpo-and-smart-contracts/) for where that money sits and how it's released.

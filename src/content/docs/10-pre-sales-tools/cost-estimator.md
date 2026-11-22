@@ -21,7 +21,7 @@ Reach for it when the customer wants a number for a rough size and you don't wan
 
 ## What the result tells you
 
-A line-item table breaks the total down by component — Panels, Inverter, Mounting, DC/AC Switchboard, Cabling, Labour — followed by **Total (excl. VAT)**, a **+ VAT @ 6%** line, and **Total (incl. VAT)**. The tool always applies the Greek reduced VAT rate of 6% regardless of your account's country — it doesn't currently adjust for other jurisdictions.
+A line-item table breaks the total down by component — Panels, Inverter, Mounting, DC/AC Switchboard, Cabling, Labour — followed by **Total (excl. VAT)**, a **VAT 24%** line, and **Total (incl. VAT)**. The tool always applies the standard Greek VAT rate of 24% regardless of your account's country — it doesn't currently adjust for other jurisdictions. Greece has no reduced VAT rate for solar: panels, inverter, battery, mounting and labour are all taxed at 24%.
 
 ## The real numbers
 
@@ -49,7 +49,7 @@ Cost Estimator prices components + labour per tier, no permits or grid-connectio
 
 ## The important caveat
 
-**This is a ballpark, not a quote.** Use the Quote Generator for a real price with real brand names, quantities, and correctly-applied VAT. If you're outside Greece, confirm the right VAT treatment with your accountant — this tool's 6% won't reflect your local rate.
+**This is a ballpark, not a quote.** Use the Quote Generator for a real price with real brand names, quantities, and correctly-applied VAT. If you're outside Greece, confirm the right VAT treatment with your accountant — this tool's 24% is the Greek rate and won't reflect your local one. Some Aegean islands have a lower rate under conditions; ask your accountant.
 
 ## Where to go from here
 

@@ -8,6 +8,8 @@ tags:
   - escrow
 ---
 
+> **Group buying will open after techs.solar launches. We'll announce the date.** Until then, joining or committing to an order is not possible. You can enrol in the GPO Programme from your dashboard now and we will email you when the first order opens.
+
 There are two ways to join a group order, and both are permanent, valid paths:
 
 - **In the middle of authoring a customer quote** — Quote Generator v2 surfaces every active GPO offer for your country at the top of Tab 1, so you can pick one and apply it to that specific quote in one click. Covered on this page.
@@ -37,7 +39,11 @@ You can use either surface. The shelf is the primary discovery mechanism (all of
 
 ## What happens after the customer accepts
 
-When you mark the quote as Accepted in your quotes list, techs.solar locks your slot at the GPO price. To turn that into a firm place in the order you sign the Member Agreement (a short electronic-signature ceremony) and fund your goods amount into the escrow program — 100% upfront, held safely and released to the vendor only against signed proof of progress. See [GPO and smart-contract escrow — where your money sits and how it moves](/03-group-buying/gpo-and-smart-contracts/) for where the money sits, and gpo-member-agreement-overview for what you're signing. You'll receive delivery details as the group order progresses.
+When you mark the quote as Accepted in your quotes list, techs.solar locks your slot at the GPO price. To turn that into a firm place in the order you sign the Member Agreement (a short electronic-signature ceremony) and fund your goods amount into the escrow program — 100% upfront, held in your own contract and paid out to the vendor's bank account only against signed proof of progress.
+
+**One step to know about before you start: on your first commitment you'll be asked to connect your Monerium account and choose the address your refunds return to.** It's part of the signing flow rather than a separate errand, but it is required — the signature won't complete until it's done, because that address is the fixed destination your money can always come back to. You do it once; later commitments reuse it.
+
+See [GPO and smart-contract escrow — where your money sits and how it moves](/03-group-buying/gpo-and-smart-contracts/) for where the money sits, and gpo-member-agreement-overview for what you're signing. You'll receive delivery details as the group order progresses.
 
 ## Can I join multiple group orders?
 
